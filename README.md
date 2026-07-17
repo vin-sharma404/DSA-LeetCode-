@@ -6,11 +6,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0024-swap-nodes-in-pairs) |
 | [0206-reverse-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0206-reverse-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0024-swap-nodes-in-pairs) |
 | [0206-reverse-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0206-reverse-linked-list) |
 ## Two Pointers
 |  |
