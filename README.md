@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0148-sort-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0206-reverse-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
@@ -22,9 +23,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0061-rotate-list) |
+| [0148-sort-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0148-sort-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
 |  |
 | ------- |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0148-sort-list) |
+## Sorting
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0148-sort-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/vin-sharma404/DSA-LeetCode-/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
