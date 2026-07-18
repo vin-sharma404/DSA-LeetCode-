@@ -10,8 +10,8 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        if(head==null){
-            return null;
+        if(head==null || head.next==null){
+            return head;
         }
         ArrayList<Integer> list=new ArrayList<>();
         ListNode temp=head;
