@@ -8,11 +8,11 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
 
-        ArrayList<Integer> list = new ArrayList<>();
         int carry = 0;
 
         while (l1 != null || l2 != null || carry != 0) {
@@ -29,18 +29,12 @@ class Solution {
                 l2 = l2.next;
             }
 
-            list.add(sum % 10);
             carry = sum / 10;
+
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
         }
 
-        ListNode head = new ListNode(list.get(0));
-        ListNode temp = head;
-
-        for (int i = 1; i < list.size(); i++) {
-            temp.next = new ListNode(list.get(i));
-            temp = temp.next;
-        }
-
-        return head;
+        return dummy.next;
     }
 }
