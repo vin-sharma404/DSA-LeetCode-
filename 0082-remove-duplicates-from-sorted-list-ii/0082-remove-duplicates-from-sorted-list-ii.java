@@ -10,48 +10,26 @@
  */
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
-
-        if (head == null)
-            return null;
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-
-        ListNode temp = head;
-
-        // Count frequency
-        while (temp != null) {
-            map.put(temp.val, map.getOrDefault(temp.val, 0) + 1);
-            temp = temp.next;
+        if(head==null || head.next==null){
+            return head;
         }
-
-        ArrayList<Integer> list = new ArrayList<>();
-
-        temp = head;
-
-        // Store only unique values
-        while (temp != null) {
-            if (map.get(temp.val) == 1) {
-                list.add(temp.val);
+        ListNode dummy=new ListNode(0);
+        dummy.next=head;
+        ListNode temp=head;
+        ListNode prev=dummy;
+        while(temp!=null && temp.next!=null){
+            if(temp.val==temp.next.val){
+                while(temp.next!=null && temp.val==temp.next.val){
+                    temp=temp.next;
+                }
+                prev.next=temp.next;
             }
-            temp = temp.next;
+            else{
+                prev=prev.next;
+            }
+        temp=temp.next;
+       
         }
-
-        if (list.size() == 0)
-            return null;
-
-        temp = head;
-        ListNode prev = null;
-
-        // Overwrite existing nodes
-        for (int i = 0; i < list.size(); i++) {
-            temp.val = list.get(i);
-            prev = temp;
-            temp = temp.next;
-        }
-
-        // Remove extra nodes
-        prev.next = null;
-
-        return head;
+        return dummy.next;
     }
 }
