@@ -11,21 +11,21 @@
 class Solution {
     public int[] nextLargerNodes(ListNode head) {
 
-        ArrayList<Integer> nums = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
         while (head != null) {
-            nums.add(head.val);
+            list.add(head.val);
             head = head.next;
         }
 
-        int n = nums.size();
+        int n = list.size();
         int[] ans = new int[n];
 
         Stack<Integer> stack = new Stack<>();
 
         for (int i = n - 1; i >= 0; i--) {
 
-            while (!stack.isEmpty() && stack.peek() <= nums.get(i)) {
+            while (!stack.isEmpty() && stack.peek() <= list.get(i)) {
                 stack.pop();
             }
 
@@ -33,7 +33,7 @@ class Solution {
                 ans[i] = stack.peek();
             }
 
-            stack.push(nums.get(i));
+            stack.push(list.get(i));
         }
 
         return ans;
